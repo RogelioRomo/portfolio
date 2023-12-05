@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+    font-family: Inter, sans-serif;
+    font-feature-settings: 'liga' 1, 'calt' 1;
+}
+
+@supports (font-variation-settings: normal) {
+    :root { font-family: InterVariable, sans-serif; }
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+    margin:0;
+    padding: 24px 5% 8px 5%;
+    min-height: 100%;
+}
+
+a{
+    color: white;
+}

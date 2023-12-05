@@ -1,9 +1,13 @@
+import { BrowserRouter } from "react-router-dom";
 import './App.css'
+import { NavCard } from './components/navCard/navCard'
 
 function App() {
   return (
     <>
-      <h1 className='text-xl font-bold text-red-500'>Hello world! with tailwind</h1>
+      <BrowserRouter>
+        <NavCard />
+      </BrowserRouter>
     </>
   )
 }
