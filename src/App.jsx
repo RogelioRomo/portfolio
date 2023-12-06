@@ -1,12 +1,15 @@
 import { BrowserRouter } from "react-router-dom";
-import './App.css'
 import { NavCard } from './components/navCard/navCard'
+import { ProfileCard } from "./components/profileCard/profileCard";
+import { FooterCard } from "./components/FooterCard/FooterCard";
 
 function App() {
   return (
     <>
       <BrowserRouter>
-        <NavCard />
+        <NavCard/>
+        <ProfileCard/>
+        <FooterCard/>
       </BrowserRouter>
     </>
   )
