@@ -1,7 +1,8 @@
 import { BrowserRouter } from "react-router-dom";
 import { NavCard } from './components/navCard/navCard'
-import { ProfileCard } from "./components/profileCard/profileCard";
-import { FooterCard } from "./components/FooterCard/FooterCard";
+import { ProfileCard } from './components/profileCard/profileCard';
+import { FooterCard } from './components/FooterCard/FooterCard';
+import { InfoSection } from './components/InfoSection/InfoSection';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <BrowserRouter>
         <NavCard/>
         <ProfileCard/>
+        <InfoSection/>
         <FooterCard/>
       </BrowserRouter>
     </>

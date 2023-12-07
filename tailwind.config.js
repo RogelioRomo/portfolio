@@ -9,6 +9,7 @@ export default {
       'custom-black': '#131315',
       'custom-orange': '#ff5e1a',
       'custom-gray': '#8a8a93',
+      'custom-gray2': '#2e2c2c',
     },
     extend: {
       backgroundImage:{
