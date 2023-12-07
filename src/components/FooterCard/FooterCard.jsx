@@ -9,7 +9,7 @@ export const FooterCard = () => {
                 all rights reserved. © 2023
             </div>
             <button className='bg-custom-gray rounded-full hover:opacity-75'>
-                <img src='/public/iconmonstr-caret-up-filled.svg' alt='Back to top' className='h-7' title='Back to top'/>
+                <img src='/iconmonstr-caret-up-filled.svg' alt='Back to top' className='h-7' title='Back to top'/>
             </button>
         </nav>
     )

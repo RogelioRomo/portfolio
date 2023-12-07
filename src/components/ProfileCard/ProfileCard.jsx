@@ -5,7 +5,7 @@ export const ProfileCard = () => {
     return(
         <section className='bg-custom-black bg-stardust-pattern flex flex-col max-w-7xl mr-auto ml-auto mt-2 py-4 px-8 rounded-3xl border-2 border-transparent hover:border-custom-gray2 display-inline'>
             <div className='mb-5 mt-3 flex items-start justify-between'>
-                <img title='avatar picture' src='../public/imgAvatar.jpeg' alt='avatar picture' className='w-[108px] h-[108px] rounded-full overflow-hidden'/>
+                <img title='avatar picture' src='/imgAvatar.jpeg' alt='avatar picture' className='w-[108px] h-[108px] rounded-full overflow-hidden'/>
                 <div className='flex'>
                     <Link className='hover:opacity-75' to='https://www.linkedin.com/in/rogelio-romo-5712591b8/' target='_blank' title='Linkedin'>
                         <svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'><path d='M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z' fill='#fff'/></svg>
