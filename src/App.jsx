@@ -4,7 +4,7 @@ import { ProfileCard } from './components/ProfileCard/ProfileCard';
 import { FooterCard } from './components/FooterCard/FooterCard';
 import { InfoSection } from './components/InfoSection/InfoSection';
 import { ProjectSection } from "./components/ProjectSection/ProjectSection";
-import { Spacer } from "./components/Spacer/Spacer";
+import { ContactCard } from "./components/ContactCard/ContactCard";
 
 function App() {
   return (
@@ -13,8 +13,7 @@ function App() {
         <NavCard/>
         <ProfileCard/>
         <InfoSection/>
-        <Spacer text='contact.'/>
-        <Spacer text='projects.'/>
+        <ContactCard/>
         <ProjectSection/>
         <FooterCard/>
       </BrowserRouter>

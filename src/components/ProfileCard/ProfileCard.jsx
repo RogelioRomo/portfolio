@@ -21,7 +21,7 @@ export const ProfileCard = () => {
             <div className='mb-2'>
                 <h1 className='text-custom-gray text-6xl'>
                     <p className='text-custom-gray mb-1'>I am an <span className='text-[#fff]'>Aerospace Engineer</span></p> 
-                    <p className='text-custom-gray'> currently working as a <span className='text-[#fff]'>web developer</span></p>
+                    <p className='text-custom-gray'> currently working as a <span className='text-[#fff]'>web developer.</span></p>
                 </h1>
             </div>
         </section>
