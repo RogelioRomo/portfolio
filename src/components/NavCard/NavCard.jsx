@@ -8,8 +8,8 @@ export const NavCard = () => {
             </Link>
             <div className='text-xl font-semibold'>
                 <NavLink className='text-[#fff]  no-underline px-6'> home. </NavLink>
-                <NavLink className='text-custom-gray hover:text-[#fff] no-underline px-6'> projects. </NavLink>
                 <NavLink className='text-custom-gray hover:text-[#fff] no-underline px-6'> contact. </NavLink>
+                <NavLink className='text-custom-gray hover:text-[#fff] no-underline px-6'> projects. </NavLink>
             </div>
         </nav>
     )
