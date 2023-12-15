@@ -9,7 +9,7 @@ export const ProjectSection = () => {
                 <p className='text-custom-gray text-3xl'>adj. 1 Music record store, 2 ecommerce, 3 fantastic.</p>
             </div>
             <div>
-            <Link to='https://discoland.vercel.app/' target='_blank'><img className='h-[768px] mb-2 rounded-3xl' src='/public/static/images/discoland-preview.png' title='discoland preview' alt='discoland preview'></img></Link>
+            <Link to='https://discoland.vercel.app/' target='_blank'><img className='h-[768px] mb-2 rounded-3xl' src='/static/images/discoland-preview.png' title='discoland preview' alt='discoland preview'></img></Link>
             </div>
         </section>
     )
