@@ -5,6 +5,7 @@ import { FooterCard } from './components/FooterCard/FooterCard';
 import { InfoSection } from './components/InfoSection/InfoSection';
 import { ProjectSection } from "./components/ProjectSection/ProjectSection";
 import { ContactCard } from "./components/ContactCard/ContactCard";
+import { Element } from 'react-scroll';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
         <NavCard/>
         <ProfileCard/>
         <InfoSection/>
-        <ContactCard/>
+        <Element name='contactCardSection'><ContactCard/></Element>
         <ProjectSection/>
         <FooterCard/>
       </BrowserRouter>

@@ -1,17 +1,38 @@
-import { Link, NavLink } from 'react-router-dom'
+import { Link as ScrollLink } from 'react-scroll';
+import { useState } from 'react';
+import { MainPill } from '../mainPill/mainPill';
 
 export const NavCard = () => {
-    return (
-        <nav className='bg-custom-black bg-stardust-pattern flex items-center justify-between max-w-7xl mr-auto ml-auto py-4 px-8 rounded-full border-2 border-transparent hover:border-custom-gray2'>
-            <Link to='/' className='text-custom-orange no-underline text-xl font-semibold hover:opacity-75'>
-                rogelio romo.
-            </Link>
-            <div className='text-xl font-semibold'>
-                <NavLink className='text-[#fff]  no-underline px-6'> home. </NavLink>
-                <NavLink className='text-custom-gray hover:text-[#fff] no-underline px-6'> contact. </NavLink>
-                <NavLink className='text-custom-gray hover:text-[#fff] no-underline px-6'> projects. </NavLink>
-            </div>
-        </nav>
-    )
-}
+    const [isBurgerMenuOpen, setBurgerMenuOpen] = useState(false);
 
+    const handleBurgerMenuClick = () => {
+        setBurgerMenuOpen(!isBurgerMenuOpen);
+    };
+
+    return (
+        <MainPill as='nav' additionalClasses='max-w-7xl mr-auto ml-auto flex items-center justify-between rounded-full'>
+            <ScrollLink to='/' className='text-custom-orange no-underline text-xl font-semibold hover:opacity-75'>
+                rogelio romo.
+            </ScrollLink>
+
+            <div className='md:hidden'>
+                <button onClick={handleBurgerMenuClick} className='text-xl font-semibold text-[#fff] focus:outline-none'>
+                    ☰
+                </button>
+                {isBurgerMenuOpen && (
+                    <div className='mt-4'>
+                        <ScrollLink onClick={handleBurgerMenuClick} className='text-[#fff]  no-underline block py-2 px-4'>home.</ScrollLink>
+                        <ScrollLink to='contactCardSection' spy={true} smooth={true} duration={500} onClick={handleBurgerMenuClick} className='text-custom-gray hover:text-[#fff] no-underline block py-2 px-4 cursor-pointer'>contact.</ScrollLink>
+                        <ScrollLink onClick={handleBurgerMenuClick} className='text-custom-gray hover:text-[#fff] no-underline block py-2 px-4'>projects.</ScrollLink>
+                    </div>
+                )}
+            </div>
+
+            <div className='hidden md:flex text-xl font-semibold'>
+                <ScrollLink className='text-[#fff]  no-underline px-6'>home.</ScrollLink>
+                <ScrollLink to='contactCardSection' spy={true} smooth={true} duration={500} className='text-custom-gray hover:text-[#fff] no-underline px-6 cursor-pointer'>contact.</ScrollLink>
+                <ScrollLink className='text-custom-gray hover:text-[#fff] no-underline px-6'>projects.</ScrollLink>
+            </div>
+        </MainPill>
+    );
+};

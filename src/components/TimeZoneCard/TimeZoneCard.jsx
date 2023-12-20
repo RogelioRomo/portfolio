@@ -1,6 +1,7 @@
 import { format } from 'date-fns'
 import { useEffect, useState } from 'react';
 import { utcToZonedTime } from 'date-fns-tz';
+import { MainPill } from '../mainPill/mainPill';
 
 export const TimeZoneCard = () => {
     const [currentDate, setCurrentDate] = useState(new Date());
@@ -19,10 +20,10 @@ export const TimeZoneCard = () => {
 
 
     return (
-        <div className='bg-custom-black bg-stardust-pattern w-[60%] mt-2 ml-2 py-4 px-8 rounded-3xl border-2 border-transparent hover:border-custom-gray2 flex justify-between'>
+        <MainPill as='div' additionalClasses='w-[60%] ml-2 rounded-3xl flex justify-between'>
             <address className='text-custom-gray text-5xl'>Based in Tijuana,<span className='text-[#fff]'> México.</span></address>
             <div title='Rogelio time zone' className='text-custom-orange text-end place-self-end text-5xl '><p className='text-custom-gray'>My time:</p>{formattedDate}<p>UTC-8</p></div>
-        </div>
+        </MainPill>
     )
 }
 
