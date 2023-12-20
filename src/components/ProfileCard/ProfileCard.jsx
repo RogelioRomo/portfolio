@@ -1,9 +1,10 @@
 import { Link } from 'react-router-dom'
-
+import { MainPill } from '../mainPill/mainPill'
 
 export const ProfileCard = () => {
+
     return(
-        <section className='bg-custom-black bg-stardust-pattern flex flex-col max-w-7xl mr-auto ml-auto mt-2 py-4 px-8 rounded-3xl border-2 border-transparent hover:border-custom-gray2 display-inline'>
+        <MainPill as='section' additionalClasses='flex flex-col max-w-7xl mr-auto ml-auto rounded-3xl display-inline'>
             <div className='mb-5 mt-3 flex items-start justify-between'>
                 <img title='avatar picture' src='/static/images/imgAvatar.jpeg' alt='avatar picture' className='w-[108px] h-[108px] rounded-full overflow-hidden'/>
                 <div className='flex'>
@@ -24,6 +25,6 @@ export const ProfileCard = () => {
                     <p className='text-custom-gray'> currently working as a <span className='text-[#fff]'>web developer.</span></p>
                 </h1>
             </div>
-        </section>
+        </MainPill>
     )
 }

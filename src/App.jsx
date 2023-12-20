@@ -11,11 +11,11 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <NavCard/>
+        <Element name='topCardSection'><NavCard/></Element>
         <ProfileCard/>
         <InfoSection/>
         <Element name='contactCardSection'><ContactCard/></Element>
-        <ProjectSection/>
+        <Element name='projectCardSection'><ProjectSection/></Element>
         <FooterCard/>
       </BrowserRouter>
     </>

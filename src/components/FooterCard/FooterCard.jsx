@@ -1,4 +1,5 @@
 import { MainPill } from "../mainPill/mainPill"
+import { Link as ScrollLink } from 'react-scroll';
 
 export const FooterCard = () => {
     return (
@@ -9,9 +10,9 @@ export const FooterCard = () => {
             <div className='text-custom-gray text-xl font-semibold'>
                 all rights reserved. © 2023
             </div>
-            <button className='bg-custom-gray rounded-full hover:opacity-75'>
+            <ScrollLink to='topCardSection' spy={true} smooth={true} duration={500} className='bg-custom-gray rounded-full hover:opacity-75'>
                 <img src='/iconmonstr-caret-up-filled.svg' alt='Back to top' className='h-7' title='Back to top'/>
-            </button>
+            </ScrollLink>
         </MainPill>
     )
 }
