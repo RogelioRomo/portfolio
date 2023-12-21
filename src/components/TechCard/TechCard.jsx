@@ -1,4 +1,4 @@
-import { MainPill } from "../mainPill/mainPill"
+import { MainPill } from "../MainPill/MainPill"
 
 export const TechCard = () => {
     return (

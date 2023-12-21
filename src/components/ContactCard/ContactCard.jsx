@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { MainPill } from '../mainPill/mainPill'
+import { MainPill } from '../MainPill/MainPill'
 import { useRef } from 'react'
 
 export const ContactCard = () => {

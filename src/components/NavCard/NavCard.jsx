@@ -1,6 +1,6 @@
 import { Link as ScrollLink } from 'react-scroll';
 import { useState, useRef } from 'react';
-import { MainPill } from '../mainPill/mainPill';
+import { MainPill } from '../MainPill/MainPill';
 
 export const NavCard = () => {
     const [isBurgerMenuOpen, setBurgerMenuOpen] = useState(false);

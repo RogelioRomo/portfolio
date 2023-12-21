@@ -1,4 +1,4 @@
-import { MainPill } from "../mainPill/mainPill"
+import { MainPill } from "../MainPill/MainPill"
 import { Link as ScrollLink } from 'react-scroll';
 
 export const FooterCard = () => {

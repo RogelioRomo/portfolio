@@ -1,7 +1,7 @@
 import { format } from 'date-fns'
 import { useEffect, useState } from 'react';
 import { utcToZonedTime } from 'date-fns-tz';
-import { MainPill } from '../mainPill/mainPill';
+import { MainPill } from '../MainPill/MainPill';
 
 export const TimeZoneCard = () => {
     const [currentDate, setCurrentDate] = useState(new Date());
