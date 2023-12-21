@@ -11,7 +11,7 @@ export const NavCard = () => {
     };
 
     return (
-        <MainPill as='nav' additionalClasses='max-w-7xl mr-auto ml-auto flex items-center justify-between rounded-full'>
+        <MainPill as='nav' additionalClasses='mr-auto ml-auto rounded-full max-w-7xl flex items-center justify-between'>
             <ScrollLink to='/' className='text-custom-orange no-underline text-xl font-semibold hover:opacity-75 cursor-pointer'>
                 rogelio romo.
             </ScrollLink>
@@ -30,7 +30,7 @@ export const NavCard = () => {
             </div>
 
             <div className='hidden md:flex text-xl font-semibold'>
-                <ScrollLink to='homeCardSection' spy={true} smooth={true} duration={500} className='text-[#fff]  no-underline px-6 cursor-pointer'>home.</ScrollLink>
+                <ScrollLink to='homeCardSection' spy={true} smooth={true} duration={500} className='text-[#fff] no-underline px-6 cursor-pointer'>home.</ScrollLink>
                 <ScrollLink to='contactCardSection' spy={true} smooth={true} duration={500} className='text-custom-gray hover:text-[#fff] no-underline px-6 cursor-pointer'>contact.</ScrollLink>
                 <ScrollLink to='projectCardSection' spy={true} smooth={true} duration={500} className='text-custom-gray hover:text-[#fff] no-underline px-6 cursor-pointer'>projects.</ScrollLink>
             </div>

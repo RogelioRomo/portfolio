@@ -20,9 +20,9 @@ export const TimeZoneCard = () => {
 
 
     return (
-        <MainPill as='div' additionalClasses='w-[60%] ml-2 rounded-3xl flex justify-between'>
-            <address className='text-custom-gray text-5xl'>Based in Tijuana,<span className='text-[#fff]'> México.</span></address>
-            <div title='Rogelio time zone' className='text-custom-orange text-end place-self-end text-5xl '><p className='text-custom-gray'>My time:</p>{formattedDate}<p>UTC-8</p></div>
+        <MainPill as='div' additionalClasses='h-[264px] rounded-3xl flex justify-between w-[100%] lg:w-[60%] lg:ml-2 lg:h-[auto]'>
+            <address className='text-custom-gray text-3xl sm:text-5xl'>Based in Tijuana,<span className='text-[#fff]'> México.</span></address>
+            <div title='Rogelio time zone' className='text-custom-orange text-end place-self-end text-3xl sm:text-5xl'><p className='text-custom-gray'>My time:</p>{formattedDate}<p>UTC-8</p></div>
         </MainPill>
     )
 }

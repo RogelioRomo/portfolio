@@ -3,7 +3,7 @@ import { TimeZoneCard } from '../TimeZoneCard/TimeZoneCard'
 
 export const InfoSection = () => {
     return(
-        <section className='flex mr-auto ml-auto max-w-7xl'>
+        <section className='flex flex-col mr-auto ml-auto lg:max-w-7xl lg:flex-row'>
             <TechCard/>
             <TimeZoneCard/>
         </section>
