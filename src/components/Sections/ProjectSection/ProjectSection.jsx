@@ -1,5 +1,5 @@
 import { Icon } from '@iconify/react'
-import { ProjectCard } from '../../Cards/ProjectCard/ProjectCard'
+import { ProjectCard } from '../../Cards/ProjectCard/ProjectCard.jsx'
 
 export const ProjectSection = () => {
   return (

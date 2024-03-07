@@ -8,8 +8,8 @@ export const TechSection = () => {
         <Icon icon='grommet-icons:technology' />
         <h2 className='ml-2 font-bold font-tanker'>Technology</h2>
       </div>
-      <div className='flex flex-col w-fit gap-10 m-auto lg:grid lg:grid-cols-2 xl:flex xl:flex-row'>
-        <TechCard additionalContent={<span>Front End</span>}>
+      <div className='font-general flex flex-col w-fit gap-10 m-auto lg:grid lg:grid-cols-2 xl:flex xl:flex-row'>
+        <TechCard additionalContent={<span className='font-tanker'>Front End</span>}>
           <div className='flex flex-col items-center'>
             <Icon icon='akar-icons:react-fill' />
             <h3 className='text-sm'>ReactJs</h3>
@@ -35,7 +35,7 @@ export const TechSection = () => {
             <h3 className='text-sm'>Javascript</h3>
           </div>
         </TechCard>
-        <TechCard additionalContent={<span>Back End</span>}>
+        <TechCard additionalContent={<span className='font-tanker'>Back End</span>}>
           <div className='flex flex-col items-center'>
             <Icon icon='akar-icons:node-fill' />
             <h3 className='text-sm'>Node.js</h3>
@@ -61,7 +61,7 @@ export const TechSection = () => {
             <h3 className='text-sm'>Firebase</h3>
           </div>
         </TechCard>
-        <TechCard additionalContent={<span>Extras</span>}>
+        <TechCard additionalContent={<span className='font-tanker'>Extras</span>}>
           <div className='flex flex-col items-center'>
             <Icon icon='mdi:git' />
             <h3 className='text-sm'>Git</h3>
