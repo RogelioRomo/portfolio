@@ -19,7 +19,7 @@ export const ProjectSection = () => {
             </p>
           </div>
         </ProjectCard>
-        <ProjectCard valueOne={<img src='/static/images/techgeek-preview.png' alt='pokedexium home page preview' className='rounded-xl mx-auto' title='pokedexium home page preview' width='95%' height='95%' />} valueTwo='https://github.com/RogelioRomo/pokedexium' valueThree=''>
+        <ProjectCard valueOne={<img src='/static/images/techgeek-preview.png' alt='pokedexium home page preview' className='rounded-xl mx-auto' title='pokedexium home page preview' width='95%' height='95%' />} valueTwo='https://github.com/RogelioRomo/coderhouse-backend/tree/main/projecto-final' valueThree=''>
           <div className='p-6'>
             <h5 className='mb-2 block font-tanker text-xl leading-snug tracking-normal text-custom-white antialiased'>
               TechGeek
@@ -29,7 +29,7 @@ export const ProjectSection = () => {
             </p>
           </div>
         </ProjectCard>
-        <ProjectCard valueOne={<img src='/static/images/discoland-previeww.png' alt='discoland home page preview' className='rounded-xl mx-auto' title='dicoland home page preview' width='95%' height='95%' />} valueTwo='https://github.com/RogelioRomo/pokedexium' valueThree='https://discoland.vercel.app/'>
+        <ProjectCard valueOne={<img src='/static/images/discoland-previeww.png' alt='discoland home page preview' className='rounded-xl mx-auto' title='dicoland home page preview' width='95%' height='95%' />} valueTwo='https://github.com/RogelioRomo/Discoland' valueThree='https://discoland.vercel.app/'>
           <div className='p-6'>
             <h5 className='mb-2 block font-tanker text-xl leading-snug tracking-normal text-custom-white antialiased'>
               Discoland
@@ -39,7 +39,7 @@ export const ProjectSection = () => {
             </p>
           </div>
         </ProjectCard>
-        <ProjectCard valueOne={<img src='/static/images/flute-preview.png' alt='flute login page preview' className='rounded-xl mx-auto' title='flute login page preview' width='95%' height='95%' />} valueTwo='https://github.com/RogelioRomo/pokedexium' valueThree=''>
+        <ProjectCard valueOne={<img src='/static/images/flute-preview.png' alt='flute login page preview' className='rounded-xl mx-auto' title='flute login page preview' width='95%' height='95%' />} valueTwo='https://github.com/RogelioRomo/flute-music-app' valueThree=''>
           <div className='p-6'>
             <h5 className='mb-2 block font-tanker text-xl leading-snug tracking-normal text-custom-white antialiased'>
               Flute music app
